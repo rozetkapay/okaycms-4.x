@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "vendor": {
+    "email": "ecomsupport@rozetkapay.com",
+    "site": "https://rozetkapay.com/"
+  },
+  "modifications": {
+    "backend": [
+      {
+        "file": "order.tpl",
+        "changes": [
+          {
+            "find": "{*Мітки замовлення*}",
+            "appendAfter": "refund.tpl"
+          }
+        ]
+      }
+    ]
+  }
+}
